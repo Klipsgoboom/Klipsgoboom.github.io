@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ParticleEmitter3D__DefineHelperClasses !== "undefined")
 gdjs.evtsExt__ParticleEmitter3D__DefineHelperClasses = {};
 
 
-gdjs.evtsExt__ParticleEmitter3D__DefineHelperClasses.userFunc0x1210fa0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__DefineHelperClasses.userFunc0xd51768 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.__particleEmmiter3DExtension = gdjs.__particleEmmiter3DExtension || {};
 
@@ -5107,7 +5107,7 @@ gdjs.evtsExt__ParticleEmitter3D__DefineHelperClasses.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__ParticleEmitter3D__DefineHelperClasses.userFunc0x1210fa0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ParticleEmitter3D__DefineHelperClasses.userFunc0xd51768(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -39,7 +39,7 @@ gdjs.loginCode.GDKingObjects2= [];
 
 
 gdjs.loginCode.mapOfGDgdjs_9546loginCode_9546GDcreateObjects1Objects = Hashtable.newFrom({"create": gdjs.loginCode.GDcreateObjects1});
-gdjs.loginCode.asyncCallback16349500 = function (runtimeScene, asyncObjectsList) {
+gdjs.loginCode.asyncCallback15810204 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.loginCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("email"), gdjs.loginCode.GDemailObjects2);
 
@@ -60,7 +60,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.loginCode.localVariables);
 for (const obj of gdjs.loginCode.GDemailObjects1) asyncObjectsList.addObject("email", obj);
 for (const obj of gdjs.loginCode.GDpasswordObjects1) asyncObjectsList.addObject("password", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.loginCode.asyncCallback16349500(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.loginCode.asyncCallback15810204(runtimeScene, asyncObjectsList)));
 }
 }
 

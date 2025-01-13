@@ -395,7 +395,7 @@ gdjs.blackjack2Code.GDtenObjects1.length = 0;
 }
 
 
-};gdjs.blackjack2Code.asyncCallback8715708 = function (runtimeScene, asyncObjectsList) {
+};gdjs.blackjack2Code.asyncCallback15882084 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.blackjack2Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("bettingBox"), gdjs.blackjack2Code.GDbettingBoxObjects2);
 
@@ -414,7 +414,7 @@ gdjs.blackjack2Code.eventsList5 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.blackjack2Code.localVariables);
 for (const obj of gdjs.blackjack2Code.GDbettingBoxObjects1) asyncObjectsList.addObject("bettingBox", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.blackjack2Code.asyncCallback8715708(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.blackjack2Code.asyncCallback15882084(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -563,7 +563,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11793420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15861100);
 }
 }
 }
@@ -602,7 +602,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(4)) > 21;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(7952948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15875756);
 }
 }
 if (isConditionTrue_0) {
@@ -721,7 +721,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) >= 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14404916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15883860);
 }
 }
 if (isConditionTrue_0) {
